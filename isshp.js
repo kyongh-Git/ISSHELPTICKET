@@ -2,10 +2,10 @@ $(function(){
 //var validval=$("#element_8_4").val();
 $('input[type="checkbox"]').click(function(){
             if($("#element_8_4").is(":checked")){
-                $("#li_5").hide();
+                $("#li_7").show();
             }
             else if($("#element_8_4").is(":not(:checked)")){
-                $("#li_5").show();
+                $("#li_7").hide();
             }
         });
 //hide the continue button when page loads
