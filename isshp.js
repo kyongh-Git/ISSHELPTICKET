@@ -111,7 +111,7 @@ $(function(){
         else if($("#element_8_14").is(":not(:checked)")){
             $("#li_26").hide();
         }
-    });
+    }));
 //alert(validval);
 
 });
