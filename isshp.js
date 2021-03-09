@@ -1,4 +1,23 @@
 $(function(){
+	$("#li_7").hide();
+	$("#li_9").hide();
+	$("#li_10").hide();
+	$("#li_11").hide();
+	$("#li_12").hide();
+	$("#li_13").hide();
+	$("#li_14").hide();
+	$("#li_15").hide();
+	$("#li_16").hide();
+	$("#li_17").hide();
+	$("#li_18").hide();
+	$("#li_19").hide();
+	$("#li_20").hide();
+	$("#li_21").hide();
+	$("#li_23").hide();
+	$("#li_24").hide();
+	$("#li_25").hide();
+	$("#li_26").hide();
+	
 	$('input[type="checkbox"]').click(function(){
 		//Registration
         if($("#element_8_4").is(":checked")){
@@ -111,7 +130,7 @@ $(function(){
         else if($("#element_8_14").is(":not(:checked)")){
             $("#li_26").hide();
         }
-    }));
+	});
+});
 //alert(validval);
 
-});
