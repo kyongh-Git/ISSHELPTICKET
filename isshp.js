@@ -30,6 +30,8 @@ $("#li_41").hide();
 $("#li_42").hide();
 $("#li_43").hide();
 $("#li_44").hide();
+$("#li_45").hide();
+$("#li_46").hide();
 $('input[type="checkbox"]').click(function(){
 	//Registration
         if($("#element_8_4").is(":checked")){
@@ -97,6 +99,15 @@ $('input[type="checkbox"]').click(function(){
         else if($("#element_8_17").is(":not(:checked)")){
 			$("#li_36").hide();
             $("#li_17").hide();
+        }
+		//J visa issues
+		if($("#element_8_20").is(":checked")){
+			$("#li_45").show();
+            $("#li_46").show();
+        }
+        else if($("#element_8_20").is(":not(:checked)")){
+			$("#li_45").hide();
+            $("#li_46").hide();
         }
 		//Athletic Issues
 		if($("#element_8_7").is(":checked")){
