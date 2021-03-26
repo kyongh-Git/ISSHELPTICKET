@@ -15,7 +15,6 @@ $("#li_20").hide();
 $("#li_21").hide();
 $("#li_23").hide();
 $("#li_24").hide();
-$("#li_25").hide();
 $("#li_26").hide();
 $("#li_32").hide();
 $("#li_33").hide();
@@ -28,7 +27,6 @@ $("#li_39").hide();
 $("#li_40").hide();
 $("#li_41").hide();
 $("#li_42").hide();
-$("#li_43").hide();
 $("#li_44").hide();
 $("#li_45").hide();
 $("#li_46").hide();
@@ -162,15 +160,6 @@ $('input[type="checkbox"]').click(function(){
         else if($("#element_8_12").is(":not(:checked)")){
 			$("#li_42").hide();
             $("#li_24").hide();
-        }
-		//E-ship issues
-		if($("#element_8_13").is(":checked")){
-			$("#li_43").show();
-            $("#li_25").show();
-        }
-        else if($("#element_8_13").is(":not(:checked)")){
-			$("#li_43").hide();
-            $("#li_25").hide();
         }
 		//Other
 		if($("#element_8_14").is(":checked")){
