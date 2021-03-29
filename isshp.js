@@ -71,12 +71,10 @@ $('input[type="checkbox"]').click(function(){
 		//Travel
 		if($("#element_8_18").is(":checked")){
 			$("#li_34").show();
-            $("#li_15").show();
 			$("#li_14").show();
         }
         else if($("#element_8_18").is(":not(:checked)")){
 			$("#li_34").hide();
-            $("#li_15").hide();
 			$("#li_14").hide();
         }
 		//Employment
